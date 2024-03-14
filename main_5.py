@@ -2,13 +2,13 @@ import pandas as pd
 import streamlit as st
 import openai
 import os
-from dotenv import load_dotenv
+
 
 from collections import Counter
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 
-load_dotenv()
+
 
 def main():
     st.title("Miuul Discord Destek Kanalı İçin Analiz Uygulaması")
